@@ -1,0 +1,15 @@
+page-home-weather {
+  ion-content {
+    background: $primary-color !important;
+  }
+
+  .float-right {
+    margin-top: -4%;
+    margin-right: 8%;
+    float: right;
+  }
+
+  .float-left {
+    float: left;
+  }
+}

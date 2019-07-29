@@ -1,0 +1,20 @@
+<!--suppress ALL -->
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <div class="float-left">
+      <ion-title>BREECHES BUOY</ion-title>
+    </div>
+    <div class="float-right">
+      <ion-toggle color="danger" [(ngModel)]="isToggled" (ionChange)="notify()"></ion-toggle>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <weather-list [location]="location" *ngIf="location"
+    [onInitEmitter]="onInitEmitter"
+    [onDestroyEmitter]="onDestroyEmitter"></weather-list>
+</ion-content>

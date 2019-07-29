@@ -1,0 +1,35 @@
+<!--suppress ALL -->
+<script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet' />
+
+<ion-header>
+  <ion-navbar color="primary">
+   <ion-title>Nearby Places:
+   
+   </ion-title>
+
+  
+  </ion-navbar>
+</ion-header>
+<ion-content class="bg-light">
+    
+    <select [(ngModel)]="places" (change)="updateData($event)">
+        <option value="Select" selected disabled>Select</option>
+        <option (click)="places=hsp" value="Hospitals">Hospitals</option>
+        <option (click)="places=PS" value="Police Station">Police Station</option>
+        <option (click)="places=HP" value="High Places">High Places</option>
+        <option (click)="places=PRC" value="Potential Relief Centres">Potential Relief Centres</option>
+      </select>
+      
+      <div (click)="openMYModal()" class="test">
+          <ion-icon name="more"></ion-icon>
+
+      </div>
+      <!-- <button ion-button (click)="openMYModal()">Show Modal</button> -->
+  <weather-list [location]="location"></weather-list>
+  <div id="map" style="width: 100%; height: 95%"></div>
+
+
+</ion-content>
+
+

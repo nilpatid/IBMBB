@@ -1,0 +1,18 @@
+<!--suppress ALL -->
+<script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet' />
+
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+      <ion-title>BREECHES BUOY</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <weather-list [location]="location" *ngIf="location"
+    [onInitEmitter]="onInitEmitter"
+    [onDestroyEmitter]="onDestroyEmitter"></weather-list>
+</ion-content>
