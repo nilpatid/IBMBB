@@ -1,0 +1,7 @@
+{
+  "name": "Breeches Buoy",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
