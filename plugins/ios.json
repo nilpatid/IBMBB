@@ -1,0 +1,56 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-flashlight": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-nativegeocoder": {
+      "LOCATION_WHEN_IN_USE_DESCRIPTION": "Use geocoder service",
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    }
+  }
+}
