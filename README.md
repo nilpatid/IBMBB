@@ -24,14 +24,7 @@ npm -v
     $ npm install
     $ npm install --only=dev  
     ```
-* Get weather API key from [DarkSky](https://darksky.net)
-  * Replace API_KEY in `src/providers/constants.ts`
-  ```js
-  export const FORECAST_CONFIG = {
-    API_ENDPOINT: 'https://api.darksky.net/forecast/',
-    API_KEY: '9bb59ff3063ac4930fc96890570b0c6f'
-  };
-  ```
+
 * Get google API key from [Google Developers Console](https://console.developers.google.com/apis/credentials)
   * Replace key in `src/index.html`
   ```html
