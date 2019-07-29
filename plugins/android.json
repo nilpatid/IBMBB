@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-flashlight": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    },
+    "cordova-plugin-nativegeocoder": {
+      "PACKAGE_NAME": "com.bb.breechesbuoy"
+    }
+  },
+  "dependent_plugins": {}
+}
