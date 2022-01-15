@@ -46,7 +46,7 @@
   },
   "description": "Native interface to SQLite for PhoneGap/Cordova",
   "devDependencies": {
-    "shelljs": "^0.7.4"
+    "shelljs": "^0.8.5"
   },
   "homepage": "https://github.com/litehelpers/Cordova-sqlite-storage",
   "keywords": [
