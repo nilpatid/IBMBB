@@ -55,7 +55,7 @@
     "leaflet-tilelayer-mbtiles-ts": "^1.4.9",
     "lodash": "^4.17.4",
     "moment": "^2.19.1",
-    "moment-timezone": "^0.5.13",
+    "moment-timezone": "^0.5.35",
     "node-sass": "^4.12.0",
     "offline-leaflet-map": "^0.3.3",
     "ol": "^5.3.3",
